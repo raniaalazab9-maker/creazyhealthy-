@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جرش هيلث - وجبات صحية مخصصة لحياة أفضل</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-heartbeat"></i>
+                <span>جرش هيلث</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">قصتنا</a></li>
+                <li><a href="#programs">برامجنا</a></li>
+                <li><a href="#menu">قائمة الوجبات</a></li>
+                <li><a href="#calculator">حاسبة السعرات</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- القسم الرئيسي -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="animate-text">جرش هيلث - صحتك تبدأ من هنا</h1>
+            <p class="animate-text-delay">وجبات صحية مخصصة تناسب هدفك: سواء كنت تتبع حمية غذائية، تعاني من مرض مزمن، أو تسعى لإنقاص وزنك بطريقة آمنة</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="cta-button animate-button">استعرض وجباتنا</a>
+                <a href="#calculator" class="cta-button secondary animate-button">احسب احتياجك</a>
+            </div>
+        </div>
+        <div class="floating-elements">
+            <div class="floating-icon"><i class="fas fa-apple-alt"></i></div>
+            <div class="floating-icon"><i class="fas fa-leaf"></i></div>
+            <div class="floating-icon"><i class="fas fa-weight"></i></div>
+            <div class="floating-icon"><i class="fas fa-heart"></i></div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-bubble">
+                <span class="counter" data-target="2500">0</span>
+                <p>عميل حقق هدفه</p>
+            </div>
+            <div class="stat-bubble">
+                <i class="fas fa-utensils"></i>
+                <p>أكثر من 50 وجبة صحية</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم عن المطعم -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">لماذا جرش هيلث؟</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h3>نحن شريكك في رحلة الصحة</h3>
+                    <p>في <strong>جرش هيلث</strong>، نؤمن أن الطعام الصحي ليس حرماناً، بل هو أسلوب حياة ممتع ومفيد. نحن نقدم وجبات مخصصة بدقة علمية تناسب حالتك الصحية وأهدافك الشخصية.</p>
+                    
+                    <div class="features">
+                        <div class="feature-item">
+                            <i class="fas fa-user-md"></i>
+                            <div>
+                                <h4>بإشراف أخصائيين</h4>
+                                <p>جميع وجباتنا مصممة من قبل أخصائيين تغذية لضمان تناسبها مع حالتك الصحية</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-calculator"></i>
+                            <div>
+                                <h4>حساب دقيق للسعرات</h4>
+                                <p>نحسب لك السعرات الحرارية والعناصر الغذائية بدقة متناهية</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-truck"></i>
+                            <div>
+                                <h4>توصيل يومي منتظم</h4>
+                                <p>نوصل وجباتك طازجة وباردة في موعدها كل يوم</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-exchange-alt"></i>
+                            <div>
+                                <h4>قائمة متنوعة أسبوعياً</h4>
+                                <p>لا ملل! نغير القائمة كل أسبوع لتناسب ذوقك وتحقيق التوازن الغذائي</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="image-frame">
+                        <div class="pattern-bg"></div>
+                        <div class="image-content">
+                            <i class="fas fa-apple-alt"></i>
+                            <h3>جرش هيلث</h3>
+                            <p>خيارك الأول للصحة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- برامجنا -->
+    <section id="programs" class="programs">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">برامجنا المتخصصة</h2>
+            <div class="programs-grid">
+                <div class="program-card" data-aos="zoom-in">
+                    <div class="program-icon">
+                        <i class="fas fa-weight"></i>
+                    </div>
+                    <h3>برنامج إنقاص الوزن</h3>
+                    <p>وجبات منخفضة السعرات وعالية الألياف لإنقاص الوزن بطريقة صحية وآمنة</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 1200-1500 سعرة يومياً</li>
+                        <li><i class="fas fa-check"></i> وجبات متوازنة</li>
+                        <li><i class="fas fa-check"></i> متابعة أسبوعية</li>
+                    </ul>
+                    <a href="#menu" class="program-btn">اعرف المزيد</a>
+                </div>
+
+                <div class="program-card featured" data-aos="zoom-in">
+                    <div class="badge">الأكثر طلباً</div>
+                    <div class="program-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>برنامج مرضى السكري</h3>
+                    <p>وجبات مخصصة لمرضى السكري مع مراعاة مؤشر الجهد السكري (GI)</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> كربوهيدرات معقدة</li>
+                        <li><i class="fas fa-check"></i> ألياف عالية</li>
+                        <li><i class="fas fa-check"></i> سكريات منخفضة</li>
+                    </ul>
+                    <a href="#menu" class="program-btn">اعرف المزيد</a>
+                </div>
+
+                <div class="program-card" data-aos="zoom-in">
+                    <div class="program-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>برنامج الرياضيين</h3>
+                    <p>وجبات غنية بالبروتين والكربوهيدرات المعقدة لدعم الأداء الرياضي</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> بروتين عالي</li>
+                        <li><i class="fas fa-check"></i> كربوهيدرات معقدة</li>
+                        <li><i class="fas fa-check"></i> تعافي سريع</li>
+                    </ul>
+                    <a href="#menu" class="program-btn">اعرف المزيد</a>
+                </div>
+
+                <div class="program-card" data-aos="zoom-in">
+                    <div class="program-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>برنامج صحة القلب</h3>
+                    <p>وجبات قليلة الصوديوم والدهون المشبعة لدعم صحة القلب والأوعية الدموية</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> قليل الصوديوم</li>
+                        <li><i class="fas fa-check"></i> دهون صحية</li>
+                        <li><i class="fas fa-check"></i> أوميغا 3</li>
+                    </ul>
+                    <a href="#menu" class="program-btn">اعرف المزيد</a>
+                </div>
+
+                <div class="program-card" data-aos="zoom-in">
+                    <div class="program-icon">
+                        <i class="fas fa-allergies"></i>
+                    </div>
+                    <h3>برنامج حساسية الطعام</h3>
+                    <p>وجبات خالية من مسببات الحساسية الشائعة (جلوتين، لاكتوز، مكسرات)</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> خالي من الجلوتين</li>
+                        <li><i class="fas fa-check"></i> خالي من اللاكتوز</li>
+                        <li><i class="fas fa-check"></i> آمن تماماً</li>
+                    </ul>
+                    <a href="#menu" class="program-btn">اعرف المزيد</a>
+                </div>
+
+                <div class="program-card" data-aos="zoom-in">
+                    <div class="program-icon">
+                        <i class="fas fa-plate-wheat"></i>
+                    </div>
+                    <h3>برنامج الأكل النظيف</h3>
+                    <p>وجبات طبيعية 100% بدون مواد حافظة أو مضافات صناعية</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> مكونات طبيعية</li>
+                        <li><i class="fas fa-check"></i> طازجة يومياً</li>
+                        <li><i class="fas fa-check"></i> صفر مواد كيميائية</li>
+                    </ul>
+                    <a href="#menu" class="program-btn">اعرف المزيد</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم القائمة -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">قائمة الوجبات الصحية</h2>
+            <p class="section-subtitle" data-aos="fade-up">جميع وجباتنا محسوبة السعرات والعناصر الغذائية بدقة</p>
+            
+            <div class="menu-filter">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="weight-loss">إنقاص الوزن</button>
+                <button class="filter-btn" data-filter="diabetic">للسكري</button>
+                <button class="filter-btn" data-filter="heart">لصحة القلب</button>
+                <button class="filter-btn" data-filter="athletes">للرياضيين</button>
+                <button class="filter-btn" data-filter="keto">كيتو</button>
+            </div>
+
+            <div class="menu-grid">
+                <div class="menu-item" data-category="weight-loss">
+                    <div class="menu-item-image">
+                        <div class="image-placeholder keto">
+                            <i class="fas fa-drumstick-bite"></i>
+                        </div>
+                        <span class="calories">350 سعرة</span>
+                        <span class="price">7 د.أ</span>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="nutrition-info">
+                            <span><i class="fas fa-drumstick-bite"></i> 30غ بروتين</span>
+                            <span><i class="fas fa-seedling"></i> 15غ كربوهيدرات</span>
+                            <span><i class="fas fa-oil-can"></i> 18غ دهون</span>
+                        </div>
+                        <h3>صدر دجاج مشوي مع البروكلي</h3>
+                        <p>صدر دجاج مشوي بأعشاب البحر المتوسط مع البروكلي البخار والأرز البني</p>
+                        <div class="dietary-tags">
+                            <span class="tag">قليل الكربوهيدرات</span>
+                            <span class="tag">غني بالألياف</span>
+                        </div>
+                        <button class="order-btn">أضف للسلة</button>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="diabetic">
+                    <div class="menu-item-image">
+                        <div class="image-placeholder diabetic">
+                            <i class="fas fa-fish"></i>
+                        </div>
+                        <span class="calories">400 سعرة</span>
+                        <span class="price">8 د.أ</span>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="nutrition-info">
+                            <span><i class="fas fa-drumstick-bite"></i> 28غ بروتين</span>
+                            <span><i class="fas fa-seedling"></i> 45غ كربوهيدرات</span>
+                            <span><i class="fas fa-oil-can"></i> 12غ دهون</span>
+                        </div>
+                        <h3>سمك السلمون مع الحمص</h3>
+                        <p>سمك سلمون مشوي مع سلطة الحمص الطازجة وخبز القمح الكامل</p>
+                        <div class="dietary-tags">
+                            <span class="tag">مناسب للسكري</span>
+                            <span class="tag">أوميغا 3</span>
+                        </div>
+                        <button class="order-btn">أضف للسلة</button>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="athletes">
+                    <div class="menu-item-image">
+                        <div class="image-placeholder athletes">
+                            <i class="fas fa-dumbbell"></i>
+                        </div>
+                        <span class="calories">550 سعرة</span>
+                        <span class="price">9 د.أ</span>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="nutrition-info">
+                            <span><i class="fas fa-drumstick-bite"></i> 40غ بروتين</span>
+                            <span><i class="fas fa-seedling"></i> 60غ كربوهيدرات</span>
+                            <span><i class="fas fa-oil-can"></i> 15غ دهون</span>
+                        </div>
+                        <h3>وعاء البروتين الرياضي</h3>
+                        <p>لحم بقري هبر مع البطاطا الحلوة، الأفوكادو، والكينوا</p>
+                        <div class="dietary-tags">
+                            <span class="tag">عالي البروتين</span>
+                            <span class="tag">طاقة مستدامة</span>
+                        </div>
+                        <button class="order-btn">أضف للسلة</button>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="keto">
+                    <div class="menu-item-image">
+                        <div class="image-placeholder keto">
+                            <i class="fas fa-cheese"></i>
+                        </div>
+                        <span class="calories">450 سعرة</span>
+                        <span class="price">8.5 د.أ</span>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="nutrition-info">
+                            <span><i class="fas fa-drumstick-bite"></i> 25غ بروتين</span>
+                            <span><i class="fas fa-seedling"></i> 8غ كربوهيدرات</span>
+                            <span><i class="fas fa-oil-can"></i> 35غ دهون</span>
+                        </div>
+                        <h3>كيتو بول</h3>
+                        <p>وعاء كيتو غني بالدهون الصحية: أفوكادو، جبنة موزاريلا، سلمون مدخن، وزيت الزيتون</p>
+                        <div class="dietary-tags">
+                            <span class="tag">كيتو</span>
+                            <span class="tag">منخفض الكربوهيدرات</span>
+                        </div>
+                        <button class="order-btn">أضف للسلة</button>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="heart">
+                    <div class="menu-item-image">
+                        <div class="image-placeholder heart">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <span class="calories">320 سعرة</span>
+                        <span class="price">7.5 د.أ</span>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="nutrition-info">
+                            <span><i class="fas fa-drumstick-bite"></i> 22غ بروتين</span>
+                            <span><i class="fas fa-seedling"></i> 40غ كربوهيدرات</span>
+                            <span><i class="fas fa-oil-can"></i> 8غ دهون</span>
+                        </div>
+                        <h3>وعاء الشوفان والبروتين</h3>
+                        <p>شوفان بجوز الهند، التوت الأزرق، وبذور الشيا - مثالي لصحة القلب</p>
+                        <div class="dietary-tags">
+                            <span class="tag">صديق للقلب</span>
+                            <span class="tag">ألياف عالية</span>
+                        </div>
+                        <button class="order-btn">أضف للسلة</button>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="weight-loss">
+                    <div class="menu-item-image">
+                        <div class="image-placeholder weight-loss">
+                            <i class="fas fa-salad"></i>
+                        </div>
+                        <span class="calories">280 سعرة</span>
+                        <span class="price">6 د.أ</span>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="nutrition-info">
+                            <span><i class="fas fa-drumstick-bite"></i> 20غ بروتين</span>
+                            <span><i class="fas fa-seedling"></i> 25غ كربوهيدرات</span>
+                            <span><i class="fas fa-oil-can"></i> 10غ دهون</span>
+                        </div>
+                        <h3>سلطة السوبر فود</h3>
+                        <p>سلطة خضراء مع الكينوا، البروتين النباتي، وبذور اليقطين</p>
+                        <div class="dietary-tags">
+                            <span class="tag">نباتي</span>
+                            <span class="tag">منخفض السعرات</span>
+                        </div>
+                        <button class="order-btn">أضف للسلة</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- حاسبة السعرات -->
+    <section id="calculator" class="calculator">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">احسب احتياجك اليومي من السعرات</h2>
+            <p class="section-subtitle" data-aos="fade-up">أدخل بياناتك لتعرف كم تحتاج من السعرات يومياً</p>
+            
+            <div class="calculator-wrapper" data-aos="fade-up">
+                <div class="calc-form">
+                    <div class="form-group">
+                        <label>العمر</label>
+                        <input type="number" id="age" placeholder="مثال: 30" min="15" max="80">
+                    </div>
+                    <div class="form-group">
+                        <label>الجنس</label>
+                        <select id="gender">
+                            <option value="male">ذكر</option>
+                            <option value="female">أنثى</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>الطول (سم)</label>
+                        <input type="number" id="height" placeholder="مثال: 170" min="100" max="250">
+                    </div>
+                    <div class="form-group">
+                        <label>الوزن (كغم)</label>
+                        <input type="number" id="weight" placeholder="مثال: 75" min="30" max="200">
+                    </div>
+                    <div class="form-group">
+                        <label>مستوى النشاط</label>
+                        <select id="activity">
+                            <option value="1.2">قليل الحركة (لا رياضة)</option>
+                            <option value="1.375">نشاط خفيف (رياضة 1-3 أيام)</option>
+                            <option value="1.55">نشاط متوسط (رياضة 3-5 أيام)</option>
+                            <option value="1.725">نشاط عالي (رياضة 6-7 أيام)</option>
+                            <option value="1.9">نشاط عالي جداً (رياضة يومية)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>الهدف</label>
+                        <select id="goal">
+                            <option value="lose">إنقاص الوزن</option>
+                            <option value="maintain">الحفاظ على الوزن</option>
+                            <option value="gain">زيادة الوزن</option>
+                        </select>
+                    </div>
+                    <button class="calc-btn" onclick="calculateCalories()">احسب السعرات</button>
+                </div>
+
+                <div class="calc-result" id="calcResult" style="display: none;">
+                    <h3>نتيجة الحساب</h3>
+                    <div class="result-circle">
+                        <div class="circle-text">
+                            <span class="big-number" id="dailyCalories">0</span>
+                            <p>سعرة يومياً</p>
+                        </div>
+                    </div>
+                    <div class="macros">
+                        <div class="macro-item">
+                            <i class="fas fa-drumstick-bite"></i>
+                            <span>بروتين: <strong id="protein">0غ</strong></span>
+                        </div>
+                        <div class="macro-item">
+                            <i class="fas fa-bread-slice"></i>
+                            <span>كربوهيدرات: <strong id="carbs">0غ</strong></span>
+                        </div>
+                        <div class="macro-item">
+                            <i class="fas fa-oil-can"></i>
+                            <span>دهون: <strong id="fats">0غ</strong></span>
+                        </div>
+                    </div>
+                    <p class="result-note">* هذه تقديرات تقريبية. ننصح باستشارة أخصائي تغذية</p>
+                    <a href="#menu" class="cta-button">اطلب وجباتك الآن</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الحجز/الاشتراك -->
+    <section class="booking">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">اشترك في برنامجك الصحي</h2>
+            <p class="section-subtitle" data-aos="fade-up">اختر خطة الوجبات المناسبة لك واحصل على خصم حتى 20%</p>
+            
+            <div class="subscription-plans" data-aos="fade-up">
+                <div class="plan-card">
+                    <h3>الخطة الأساسية</h3>
+                    <div class="plan-price">
+                        <span class="price">25 د.أ</span>
+                        <span class="period">/ أسبوعياً</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 5 وجبات أسبوعياً</li>
+                        <li><i class="fas fa-check"></i> توصيل مجاني</li>
+                        <li><i class="fas fa-check"></i> حساب السعرات</li>
+                    </ul>
+                    <button class="plan-btn">اشترك الآن</button>
+                </div>
+
+                <div class="plan-card featured">
+                    <div class="badge">الأكثر شعبية</div>
+                    <h3>الخطة المتكاملة</h3>
+                    <div class="plan-price">
+                        <span class="price">45 د.أ</span>
+                        <span class="period">/ أسبوعياً</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 10 وجبات أسبوعياً</li>
+                        <li><i class="fas fa-check"></i> توصيل مجاني</li>
+                        <li><i class="fas fa-check"></i> استشارة تغذية</li>
+                        <li><i class="fas fa-check"></i> متابعة أسبوعية</li>
+                    </ul>
+                    <button class="plan-btn">اشترك الآن</button>
+                </div>
+
+                <div class="plan-card">
+                    <h3>الخطة الملكية</h3>
+                    <div class="plan-price">
+                        <span class="price">80 د.أ</span>
+                        <span class="period">/ أسبوعياً</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 14 وجبة أسبوعياً</li>
+                        <li><i class="fas fa-check"></i> توصيل يومي</li>
+                        <li><i class="fas fa-check"></i> استشارة خبير</li>
+                        <li><i class="fas fa-check"></i> قائمة مخصصة</li>
+                        <li><i class="fas fa-check"></i> دعم 24/7</li>
+                    </ul>
+                    <button class="plan-btn">اشترك الآن</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- اتصل بنا -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">تواصل معنا</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>العنوان</h3>
+                            <p>شارع فؤاد نعناعة، جرش، الأردن</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>الهاتف</h3>
+                            <p>+962 77 987 6543</p>
+                            <p>+962 79 111 2233</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>البريد الإلكتروني</h3>
+                            <p>info@jershhealth.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>ساعات العمل</h3>
+                            <p>السبت - الخميس: 8:00 ص - 10:00 م</p>
+                            <p>الجمعة: 2:00 م - 10:00 م</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-whatsapp"></i>
+                        <div>
+                            <h3>واتساب</h3>
+                            <p>+962 77 987 6543</p>
+                            <small>للطلبات السريعة والاستفسارات</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="الاسم الكريم" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="رقم الهاتف" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">البرنامج المطلوب</option>
+                                <option value="weight-loss">إنقاص الوزن</option>
+                                <option value="diabetic">مرضى السكري</option>
+                                <option value="athletes">الرياضيين</option>
+                                <option value="heart">صحة القلب</option>
+                                <option value="custom">استشارة مخصصة</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="رسالتك أو استفسارك" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">إرسال الرسالة</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- التذييل -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-heartbeat"></i> جرش هيلث</h3>
+                    <p>شريكك في رحلة الصحة والعافية. نقدم وجبات صحية مخصصة تناسب أهدافك وحالتك الصحية.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#programs">برامجنا</a></li>
+                        <li><a href="#menu">قائمة الوجبات</a></li>
+                        <li><a href="#calculator">حاسبة السعرات</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>خدماتنا</h3>
+                    <ul>
+                        <li>وجبات لإنقاص الوزن</li>
+                        <li>وجبات لمرضى السكري</li>
+                        <li>وجبات رياضية</li>
+                        <li>استشارات تغذية</li>
+                        <li>توصيل يومي</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>تحميل التطبيق</h3>
+                    <p>احمل تطبيقنا واطلب وجباتك بسهولة</p>
+                    <div class="app-buttons">
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-google-play"></i>
+                            <span>Google Play</span>
+                        </a>
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-apple"></i>
+                            <span>App Store</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 جرش هيلث - جميع الحقوق محفوظة</p>
+                <p class="footer-note">تصميم وإعداد فريق جرش هيلث - صحتك هي أولويتنا</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
